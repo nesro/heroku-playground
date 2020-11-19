@@ -1,9 +1,10 @@
 {
-  "name": "heroku-playground",
+  "name": "playground",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./src/app.js",
     "start": "node ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nesro/heroku-playground.git"
+    "url": "git+https://github.com/nesro/playground.git"
   },
   "bugs": {
-    "url": "https://github.com/nesro/heroku-playground/issues"
+    "url": "https://github.com/nesro/playground/issues"
   },
-  "homepage": "https://github.com/nesro/heroku-playground#readme"
+  "homepage": "https://github.com/nesro/playground#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
